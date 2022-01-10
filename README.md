@@ -11,6 +11,8 @@ You must have [pandoc] command line tool installed. Check it by running:
 pandoc --version
 ```
 
+** Tested with node 14 and npm 7, use `nvm` to change quickly between node versions.
+
 Install all project dependencies:
 
 ```
@@ -25,6 +27,9 @@ In the converter's directory:
 ```
 npm run start <pathResource> <pathResult>
 ```
+
+For example `npm run start C:/Users/test/Downloads/confluence  . `
+This will create a folder called `confluence` with the parsed markdown inside the current directory.
 
 
 ### Parameters
