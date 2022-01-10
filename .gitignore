@@ -3,3 +3,4 @@ data/
 /.idea/
 *.map
 *.js
+package-lock.json
